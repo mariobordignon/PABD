@@ -33,6 +33,6 @@ CREATE VIEW civil_eng_students as
         std.ID, 
         std.name;
 GO 
-    -- Testando
+
 SELECT * FROM civil_eng_students
 ORDER BY quantidade_cursos DESC;
